@@ -2,7 +2,7 @@ import dataforge.console as console
 
 
 def _write(text, db, tag):
-    open(db.path.replace(".json", ".log"), "a", encoding="utf-8").write(
+    open(db.path.replace(".xeldb", ".log"), "a", encoding="utf-8").write(
         f"[{console.engine.time('%d-%m-%Y %H:%M:%S')}] [{db.name.upper()}] [{tag}] {text}\n"
     )
 

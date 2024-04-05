@@ -10,7 +10,7 @@ instances = []
 
 #DB
 class RuntimeDB:
-    def __init__(self, name, folder="data",  logging = True, debug = False, runtime=False):
+    def __init__(self, name, folder="data",  logging = False, debug = False, runtime=False):
         self.name = name
         self.folder = folder
         self.path = os.path.join(self.folder, self.name + ".xeldb")
