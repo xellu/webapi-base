@@ -1,0 +1,10 @@
+{
+    "name": "BaseAPI",
+
+    "http_host": "0.0.0.0",
+    "http_port": 3000,
+    "http_debug": false,
+    "localhost": true,
+
+    "more_settings": "here"
+}
